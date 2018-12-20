@@ -1,13 +1,13 @@
 version: "2"
 services:
   my-wpdb:
-    image: mariadb
+    image: t0p0112/mariadbcont
     ports:
       - "8081:3306"
     environment:
       MYSQL_ROOT_PASSWORD: topo112
   my-wp:
-    image: wordpress
+    image: t0p0112/wordpresscont
     volumes:
       - ./:/var/www/html
     ports:
@@ -17,7 +17,7 @@ services:
     environment:
       WORDPRESS_DB_PASSWORD: topo112
   myphp:
-    image: phpmyadmin/phpmyadmin
+    image: t0p0112/phpmyadmincont
     depends_on:
       - my-wpdb
     ports:
