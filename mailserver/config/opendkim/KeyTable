@@ -1,0 +1,1 @@
+mail._domainkey.dockerespe.lan dockerespe.lan:mail:/etc/opendkim/keys/dockerespe.lan/mail.private

@@ -1,0 +1,3 @@
+mail._domainkey	IN	TXT	( "v=DKIM1; h=sha256; k=rsa; "
+	  "p=MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA5Sz4mWqE3pjmqMlWi7Lz/8MqhG9mpWDO4FeEw8z22gBMm5LGANrfL1g4Xkw0lzNenAx4miyPrJwEUSoHnU5jhkQd2i3j6KgAhzgmb8lYw6IeRKZi7FKhaO+UaXc4GZCvqm9prvFm93xMqaesc+nPp1l+ouyhDe56S6c9KmpZV3AP/HBzUIC9AHpTUAJNTVx3snu+ONEJXMpQwl"
+	  "6CbKoGJPsG+Iprf+J4e9bsMii++5ZTpDiOFnNb+Mi5+rxqSDRg6dH06iMbJjCVmz+vNBYozGm3ko8cgVqWgkg8qgY9rrxxpF+V4GAGXzfw/Rc92Sx6yjexuamLvKin79YyTG0WiwIDAQAB" )  ; ----- DKIM key mail for dockerespe.lan
